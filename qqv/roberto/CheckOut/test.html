@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="k" style="width: 50px;height: 15px;background-color: red"></div>
+	<label  ><input type="checkbox" onchange="toggleCheckbox(this)"  value="" name="mmm"> </label>
+
+<div id="m"></div>
+</body>
+</html>
+<script src="../../ajax.js"></script>
+    <script type="text/javascript">
+ $.ajax(
+            { 
+                type: "GET",
+                url: "g.html",
+                success: function(data)
+                {
+// alert("m"); 	 
+                   
+
+                }
+            });
+ function toggleCheckbox(element)
+ {
+
+  var m =element.getAttribute("value");
+  var k=!element.checked;
+ element.checked=!k;
+ k=element.checked;
+    alert(k); 	 
+
+
+ }
+
+        $(document).ready(function()
+        {
+        
+           
+
+            $("#z").change(function()
+            {
+                    
+                $.ajax(
+            { 
+                type: "GET",
+                url: "g.html",
+                success: function(data)
+                {
+ alert("m"); 	 
+                   
+
+                }
+            });
+               });
+
+
+            // -------------------
+            
+        });</script>

@@ -1,0 +1,20 @@
+Web Admin     :http://localhost/qqv/admin/NAdmin/admins/WebAdmin/index.php
+
+user name:j@j
+password :12345678
+
+Company Admin :http://localhost/qqv/admin/NAdmin/admins/companyadmin/index.php
+
+user name:j@jA
+password :12345678
+
+Public Site   :http://localhost/qqv/
+
+
+Used templates:
+
+Admins Dashborad  : 1- https://www.wrappixel.com/templates/niceadmin-lite/?ref=23
+
+Public Site       : 1- https://colorlib.com/wp/template/travello/
+                    2- https://colorlib.com/wp/template/roberto/
+
